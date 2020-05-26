@@ -69,7 +69,7 @@ x <- strptime(x, "%Y-%m-%d %H:%M:%S")
 ylimMin <- min(c(bindedDf$Sub_metering_1, bindedDf$Sub_metering_2, bindedDf$Sub_metering_3))
 ylimMax <- max(c(bindedDf$Sub_metering_1, bindedDf$Sub_metering_2, bindedDf$Sub_metering_3))
 
-png("./figure/plot4.png", width = 480, height = 480)
+png("./plot4.png", width = 480, height = 480)
 
 par(mfrow=c(2,2))
 # First plot

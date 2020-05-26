@@ -69,7 +69,7 @@ x <- strptime(x, "%Y-%m-%d %H:%M:%S")
 ylimMin <- min(c(bindedDf$Sub_metering_1, bindedDf$Sub_metering_2, bindedDf$Sub_metering_3))
 ylimMax <- max(c(bindedDf$Sub_metering_1, bindedDf$Sub_metering_2, bindedDf$Sub_metering_3))
 
-png("./figure/plot3.png", width = 480, height = 480)
+png("./plot3.png", width = 480, height = 480)
 
 plot(x, bindedDf$Sub_metering_1,  xlab = "", ylab = "Energy sub metering", type = "l", col = "black", ylim = c(ylimMin, ylimMax))
 par(new = T)

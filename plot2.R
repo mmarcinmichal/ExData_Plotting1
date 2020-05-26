@@ -66,7 +66,7 @@ x <- strptime(x, "%Y-%m-%d %H:%M:%S")
 #
 # Create and save plot2
 #
-png("./figure/plot2.png", width = 480, height = 480)
+png("./plot2.png", width = 480, height = 480)
 plot(x, bindedDf$Global_active_power,  xlab = "", ylab = "Global active power (kilowatts)", type = "l")
 dev.off()
 
